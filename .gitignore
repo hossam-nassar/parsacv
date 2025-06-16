@@ -1,0 +1,195 @@
+# ParsaCV - Git Ignore File
+# =========================
+
+# Security and Environment Files
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.crt
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+parsacv_env/
+.virtualenv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Streamlit
+.streamlit/
+
+# Application Specific
+temp_cvs/
+*.pdf
+*.docx
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+*.xls
+
+# Output Files
+outputs/
+reports/
+analysis_results/
+*.xlsx
+*_report_*.xlsx
+CV_Analysis_Report_*.xlsx
+ParsaCV_Analysis_Report_*.xlsx
+
+# Logs
+*.log
+logs/
+.log
+
+# spaCy Models (if downloaded locally)
+en_core_web_sm/
+ar_core_news_sm/
+
+# ML Models Cache
+.cache/
+models/
+*.pkl
+*.joblib
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgresql_data/
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Documentation builds
+docs/_build/
+.readthedocs.yml
+
+# PyBuilder
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Sensitive data (examples)
+sample_cvs/
+test_data/
+client_data/
+
+# Performance profiling
+*.prof

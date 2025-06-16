@@ -1,0 +1,50 @@
+# ParsaCV - Multilingual CV Analyzer Dependencies
+# Core framework
+streamlit>=1.28.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# Document processing
+PyMuPDF>=1.23.0
+python-docx>=0.8.11
+Pillow>=10.0.0
+
+# OCR capabilities
+pytesseract>=0.3.10
+
+# NLP and language processing
+spacy>=3.7.0
+langdetect>=1.0.9
+
+# Semantic similarity and ML
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+torch>=2.0.0
+
+# Computer vision for image preprocessing
+opencv-python>=4.8.0
+
+# Date parsing
+python-dateutil>=2.8.2
+
+# Additional utilities
+pathlib2>=2.3.7
+tqdm>=4.66.0
+
+# For better error handling and logging
+colorama>=0.4.6
+
+# Memory optimization
+psutil>=5.9.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Note: After installing requirements, you need to download spaCy models:
+# python -m spacy download en_core_web_sm
+# python -m spacy download ar_core_news_sm

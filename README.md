@@ -1,4 +1,4 @@
-  # 🎯 ParsaCV - Advanced Multilingual CV Analyzer
+# 🎯 ParsaCV - Advanced Multilingual CV Analyzer
 
 <div align="center">
 
